@@ -73,6 +73,16 @@ public class SmartScanning
             }
             num++;
         }
-        System.out.println(txt2);
+    }
+    
+    public String getText1()
+    {
+        return txt1;
+    }
+    
+    public String getText2()
+    {
+        return txt2;
     }
 }
+
