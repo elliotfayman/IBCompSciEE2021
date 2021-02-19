@@ -41,7 +41,6 @@ public class SignatureMatch
     
     public String getFirstText()
     {
-        System.out.println(txt1);
         return txt1;
     }
     
