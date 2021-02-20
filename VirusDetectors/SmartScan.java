@@ -32,8 +32,11 @@ public class SmartScanning
         for(String s : word1)
         {
             words1.add(s);
-            words2.add(word2[num]);
-            num++;
+        }
+        
+        for(String s : word2)
+        {
+            words2.add(s);
         }
         uwords1 = new ArrayList<>(new LinkedHashSet<>(words1));
         uwords2 = new ArrayList<>(new LinkedHashSet<>(words2));
@@ -42,8 +45,11 @@ public class SmartScanning
         for(String s : uwords1)
         {
             amtwords1.add(Collections.frequency(words1, s));
-            amtwords2.add(Collections.frequency(words2, uwords2.get(num)));
-            num++;
+        }
+        
+        for(String s : uwords2)
+        {
+            amtwords2.add(Collections.frequency(words2, s));
         }
     }
     
@@ -62,7 +68,7 @@ public class SmartScanning
                 txt1 = txt1.replaceAll("" + words1.get(num) + " ", "");
                 txt1 = txt1.replaceAll("" + words1.get(num) + ",", "");
             }
-            if(amtwords2.get(num)>minfreq)
+            if(num<amtwords2.size() && amtwords2.get(num)>minfreq)
             {
                 txt2 = txt2.replaceAll(" " + words2.get(num) + " ", " ");
                 txt2 = txt2.replaceAll(" " + words2.get(num) + ".", "");
