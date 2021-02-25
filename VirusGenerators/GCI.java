@@ -53,5 +53,9 @@ public class GCI
         System.out.println(encVirus);
     }
     
-    
+    public String getVirus()
+    {
+        return encVirus;
+    }
 }
+
