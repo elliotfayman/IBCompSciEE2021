@@ -27,4 +27,9 @@ public class PermuationSwap
         }
         encVirus = encVirus.replaceAll("  ", " ");
     }
+    
+    public String getVirus()
+    {
+        return encVirus;
+    }
 }
