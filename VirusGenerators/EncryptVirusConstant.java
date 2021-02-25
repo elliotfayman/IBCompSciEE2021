@@ -46,4 +46,9 @@ public class EncryptVirusConstant
           virus = virus.replaceAll(" " + uniqueWordsList.get(x) + " ", " "+ temp + " ");
       }
     }
+    
+    public String getVirus()
+    {
+        return virus;
+    }
 }
