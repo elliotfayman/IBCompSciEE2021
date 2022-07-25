@@ -1,7 +1,7 @@
 # IB Comp Sci EE2021
 
 ## Purpose
-This repository was used to fullfil the requirements of the international baccalaureate Extended Essay. The topic of the extended essay
+This repository was used to fullfil the requirements of the International Baccalaureate Extended Essay. The topic of the extended essay
 is metamorphic viruses and utilizing Java, research was conducted on such malware.
 
 ---
