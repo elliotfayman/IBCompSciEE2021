@@ -1,6 +1,6 @@
 # IB Comp Sci EE2021
 
-## Purpose
+## Abstract
 
 This essay will investigate the methods by which viruses attempt to avoid static, signature-based
 detection. That is, detection that is based on the analysis of a single stagnant source of
