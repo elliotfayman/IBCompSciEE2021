@@ -1,7 +1,12 @@
 # IB Comp Sci EE2021
 
 ## Purpose
-Research paper concerning malware.
+
+This essay will investigate the methods by which viruses attempt to avoid static, signature-based
+detection. That is, detection that is based on the analysis of a single stagnant source of
+information. Specifically, this paper will analyze the common techniques that metamorphic
+viruses use to avoid detection and a determination on which of these techniques are most
+effective at avoiding detection will be made.
 
 ---
 
