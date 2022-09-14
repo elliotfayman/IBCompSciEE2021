@@ -1,4 +1,4 @@
-# IB Comp Sci EE2021
+# IB Comp Science Extended Essay 2021
 
 ## Abstract
 
